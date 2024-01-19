@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "2B79F23A-ECF9-41A5-9BA8-14F07C7578A7",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Modules\/AppFoundation",
+        "identifier" : "AppFoundationTests",
+        "name" : "AppFoundationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Modules\/Core",
+        "identifier" : "FlickrSDKTests",
+        "name" : "FlickrSDKTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Modules\/Core",
+        "identifier" : "NetworkingTests",
+        "name" : "NetworkingTests"
+      }
+    }
+  ],
+  "version" : 1
+}
